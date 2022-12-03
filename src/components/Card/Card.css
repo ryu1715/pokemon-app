@@ -3,6 +3,12 @@
   box-shadow: -4px 17px 21px -5px #777777;
   border-radius: 10px;
   background-color: white;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: translateY(5px);
+  box-shadow: none;
 }
 
 .cardName {
